@@ -46,6 +46,52 @@ a {
 .hero {
     display: flex;
     background-color: #1f2937;
-    margin-top: 10px;
     color: white;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.hero-left{
+    display: flex;
+    flex: 0 1 25%;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 132px;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;;
+
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-right{
+    height: 300px;
+    width: auto;
+    padding-right: 132px;
+}
+
+.button{
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-top: 8px;
+  }
+
+.button:hover {
+    background: rgb(35, 57, 123);
 }

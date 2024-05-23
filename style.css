@@ -122,13 +122,35 @@ button {
 .container-two img {
     border: 5px solid #3e84f6;
     margin: 10px;
+    width: 150px;
+    height: 150px;
 }
 
 .imgOne, .imgTwo, .imgThree, .imgFour {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center; /* Add this line */
+    align-items: center;
     padding: 16px;
     width: 225px;
+}
+
+.imgOne div, .imgTwo div, .imgThree div, .imgFour div {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    color: #808891;
+}
+
+.quote-container {
+    margin-top: 20px;
+    background-color: #e5e7eb;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: center;
 }

@@ -63,7 +63,7 @@ a {
 
 .main-text{
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #F9FAF8;;
 
 }
@@ -94,4 +94,41 @@ button {
 
 .button:hover {
     background: rgb(35, 57, 123);
+}
+
+
+.container-two{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.inner-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    
+}
+
+.container-two img {
+    border: 5px solid #3e84f6;
+    margin: 10px;
+}
+
+.imgOne, .imgTwo, .imgThree, .imgFour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Add this line */
+    padding: 16px;
+    width: 225px;
 }
